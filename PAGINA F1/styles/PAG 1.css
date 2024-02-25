@@ -1,0 +1,67 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para el encabezado */
+  h1 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Estilo para la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+    text-align: center; /* Centra el texto en todas las celdas */
+  }
+  
+  /* Estilo para las celdas de encabezado de la tabla */
+  th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Estilo para las celdas de datos de la tabla */
+  td {
+    padding: 10px;
+  }
+  
+  /* Estilo para las imágenes en las celdas */
+  td img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  /* Estilo para el título del circuito encima de la columna de la imagen */
+  th:nth-child(4) {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  
+  /* Estilo para el pie de página */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Estilo para el aviso de copyright en el pie de página */
+  footer p {
+    margin: 0;
+  }
+  
